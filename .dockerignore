@@ -1,0 +1,8 @@
+.venv
+.git
+.gitignore
+__pycache__
+*.pyc
+LICENSE
+README.md
+screenshots
