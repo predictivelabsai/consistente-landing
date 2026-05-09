@@ -234,6 +234,7 @@ def page(title: str, current_path: str = "/", *content, head_extra=None, body_ex
         ),
         Script(src="https://cdn.tailwindcss.com"),
         Script(NotStr(TAILWIND_CONFIG)),
+        Link(rel="icon", href="/static/favicon.svg", type="image/svg+xml"),
         Link(rel="stylesheet", href="/static/site.css"),
     ]
     if head_extra:
