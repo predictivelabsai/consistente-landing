@@ -217,3 +217,10 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .sesskey
+
+# Secrets / credentials
+.secrets/
+
+# Browser-automation snapshots (may contain account data)
+.playwright-mcp/
+nc-*.yml
